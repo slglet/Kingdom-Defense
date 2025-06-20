@@ -20,10 +20,4 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("Story");
 
     }
-
-    public void QuitGame()
-    {
-        Debug.Log("Quit button pressed.");
-        Application.Quit(); // Will not quit in the editor
-    }
 }
