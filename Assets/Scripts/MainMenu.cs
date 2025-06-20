@@ -5,7 +5,7 @@ public class Menu : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("Game"); // Name of your actual game scene
+        SceneManager.LoadScene("Game"); 
     }
 
     public void OpenOptions()
